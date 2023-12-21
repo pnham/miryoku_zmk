@@ -4,3 +4,13 @@
 #include "../miryoku/custom_config.h"
 #include "../miryoku/mapping/60/sofle.h"
 #include "../miryoku/miryoku.dtsi"
+
+/ {
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+        tri_layer {
+            if-layers = <5 8>;
+            then-layer = <10>;
+        };
+    };
+};
