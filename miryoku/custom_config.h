@@ -114,7 +114,7 @@ MIRYOKU_X(ADJUST, "Adjust") \
 
 #define MIRYOKU_LAYER_NAV \
 &kp F11,           &kp F1,            &kp F2,            &kp F3,            &kp F4,            &kp F5,            &kp F6,            &kp F7,            &kp F8,            &kp F9,            &kp F10,            &kp F12, \
-&kp TAB,           &kp PG_UP,         &kp HOME,          &kp UP,            &kp END,           &kp INS,           U_NA,              &to U_BASE,        &to U_EXTRA,       &to U_TAP,         &u_bootloader,      &kp DEL,\
+&kp TAB,           &kp PG_UP,         &kp HOME,          &kp UP,            &kp END,           &kp INS,           U_NA,              &to U_BASE,        &to U_EXTRA,       &to U_TAP,         &bootloader,      &kp DEL,\
 &kp ESC,           &kp PG_DN,         &kp LEFT,          &kp DOWN,          &kp RIGHT,         &u_caps_word,      U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,           &kp SQT, \
 &kp LSHFT,         U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_NA,              &to U_NAV,         &to U_NUM,         &kp RALT,          U_NA,               &kp RSHFT,\
                    U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
@@ -130,7 +130,7 @@ MIRYOKU_X(ADJUST, "Adjust") \
 
 #define MIRYOKU_LAYER_MOUSE \
 &kp F11,           &kp F1,            &kp F2,            &kp F3,            &kp F4,            &kp F5,            &kp F6,            &kp F7,            &kp F8,            &kp F9,            &kp F10,            &kp F12, \
-&kp TAB,           U_WH_U,            U_WH_L,            U_MS_U,            U_WH_R,            U_NU,              U_NA,              &to U_BASE,        &to U_EXTRA,       &to U_TAP,         &u_bootloader,      &kp DEL, \
+&kp TAB,           U_WH_U,            U_WH_L,            U_MS_U,            U_WH_R,            U_NU,              U_NA,              &to U_BASE,        &to U_EXTRA,       &to U_TAP,         &bootloader,      &kp DEL, \
 &kp ESC,           U_WH_D,            U_MS_L,            U_MS_D,            U_MS_R,            U_NU,              U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,           &kp SQT, \
 &kp LSHFT,         U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_NA,              &to U_NAV,         &to U_NUM,         &kp RALT,          U_NA,               &kp RSHFT,\
                    U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_NA,              U_NA,              U_NA,              U_NP,              U_NP
@@ -148,8 +148,8 @@ MIRYOKU_X(ADJUST, "Adjust") \
 
 #define MIRYOKU_LAYER_MEDIA \
 &kp F11,           &kp F1,            &kp F2,            &kp F3,            &kp F4,            &kp F5,            &kp F6,            &kp F7,            &kp F8,            &kp F9,            &kp F10,            &kp F12, \
-&kp TAB,           &u_rgb_hui,        &u_rgb_sai,        &kp C_VOL_UP,      &u_rgb_bri,        &u_rgb_tog,        U_NA,              &to U_BASE,        &to U_EXTRA,       &to U_TAP,         &u_bootloader,      &kp DEL, \
-&kp ESC,           &u_rgb_eff,        &kp C_PREV,        &kp C_VOL_DN,      &kp C_NEXT,        &u_ep_tog,         U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,           &kp SQT, \
+&kp TAB,           U_NP,              U_NP,              &kp C_VOL_UP,      U_NP,              U_NP,              U_NA,              &to U_BASE,        &to U_EXTRA,       &to U_TAP,         &bootloader,        &kp DEL, \
+&kp ESC,           U_NP,              &kp C_PREV,        &kp C_VOL_DN,      &kp C_NEXT,        U_NP,              U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,           &kp SQT, \
 &kp LSHFT,         &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,       &u_out_tog,        U_NA,              &to U_MEDIA,       &to U_FUN,         &kp RALT,          &tog U_GAME,        &kp RSHFT, \
                    U_NP,              U_NP,              &kp C_MUTE,        &kp C_PP,          &kp C_STOP,        U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
@@ -163,7 +163,7 @@ MIRYOKU_X(ADJUST, "Adjust") \
 
 #define MIRYOKU_LAYER_NUM \
 &kp F11,           &kp F1,            &kp F2,            &kp F3,            &kp F4,            &kp F5,            &kp F6,            &kp F7,            &kp F8,            &kp F9,            &kp F10,            &kp F12, \
-&kp TAB,           &u_bootloader,     &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              &kp LBKT,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp RBKT,           &kp DEL, \
+&kp TAB,           &bootloader,       &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              &kp LBKT,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp RBKT,           &kp DEL, \
 &kp ESC,           &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp EQL,           &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp SEMI,           &kp SQT, \
 &kp LSHFT,         U_NA,              &kp RALT,          &to U_NAV,         &to U_NUM,         U_NA,              &kp BSLH,          &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp GRAVE,          &kp RSHFT, \
                    U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp MINUS,         &kp NUM_0,         &kp DOT,           U_NP,              U_NP
@@ -178,7 +178,7 @@ MIRYOKU_X(ADJUST, "Adjust") \
 
 #define MIRYOKU_LAYER_SYM \
 &kp F11,           &kp F1,            &kp F2,            &kp F3,            &kp F4,            &kp F5,            &kp F6,            &kp F7,            &kp F8,            &kp F9,            &kp F10,            &kp F12, \
-&kp TAB,           &u_bootloader,     &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              &kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,           &kp DEL, \
+&kp TAB,           &bootloader,       &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              &kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,           &kp DEL, \
 &kp ESC,           &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp PLUS,          &kp DLLR,          &kp PRCT,          &kp CRRT,          &kp COLON,          &kp SQT, \
 &kp LSHFT,         U_NA,              &kp RALT,          &to U_MOUSE,       &to U_SYM,         U_NA,              &kp PIPE,          &kp EXCL,          &kp AT,            &kp HASH,          &kp TILDE,          &kp RSHFT, \
                    U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp UNDER,         &kp LPAR,          &kp RPAR,          U_NP,              U_NP
@@ -194,7 +194,7 @@ MIRYOKU_X(ADJUST, "Adjust") \
 
 #define MIRYOKU_LAYER_FUN \
 &kp F11,           &kp F1,            &kp F2,            &kp F3,            &kp F4,            &kp F5,            &kp F6,            &kp F7,            &kp F8,            &kp F9,            &kp F10,            &kp F12, \
-&kp TAB,           &u_bootloader,     &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              &kp PSCRN,         &kp F7,            &kp F8,            &kp F9,            &kp F12,            &kp DEL, \
+&kp TAB,           &bootloader,     &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              &kp PSCRN,         &kp F7,            &kp F8,            &kp F9,            &kp F12,            &kp DEL, \
 &kp ESC,           &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp SLCK,          &kp F4,            &kp F5,            &kp F6,            &kp F11,            &kp SQT, \
 &kp LSHFT,         U_NA,              &kp RALT,          &to U_MEDIA,       &to U_FUN,         U_NA,              &kp PAUSE_BREAK,   &kp F1,            &kp F2,            &kp F3,            &kp F10,            &kp RSHFT,\
                    U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp TAB,           &kp SPC,           &kp K_APP,         U_NP,              U_NP
