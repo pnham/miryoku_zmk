@@ -67,8 +67,8 @@ MIRYOKU_X(ADJUST, "Adjust") \
 #define MIRYOKU_LAYER_BASE \
 &kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp N4,            &kp N5,            &kp N6,            &kp N7,            &kp N8,            &kp N9,            &kp N0,             &kp MINUS, \
 &kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,              &kp DEL, \
-&kp ESC,           &hm LGUI A,        &hm LALT S,        &hm LCTRL D,       &hm LSHFT F,       &kp G,             &kp H,             &hm LSHFT J,       &hm LCTRL K,       &hm LALT L,        &hm LGUI SEMI,       &kp SQT, \
-&kp LSHFT,         &lt U_BUTTON Z,    &hm RALT X,        &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &hm RALT DOT,      &lt U_BUTTON SLASH, &kp RSHFT, \
+&kp ESC,           &rpi LGUI A,       &rpi LALT S,       &rpi LCTRL D,      &rpi LSHFT F,      &kp G,             &kp H,             &rpi LSHFT J,      &rpi LCTRL K,      &rpi LALT L,       &rpi LGUI SEMI,     &kp SQT, \
+&kp LSHFT,         &lt U_BUTTON Z,    &rpi RALT X,       &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &rpi RALT DOT,     &lt U_BUTTON SLASH, &kp RSHFT, \
                    &kp LEFT,          &lt U_NAV RET,     &lt U_FUN DEL,     &lt U_NUM BSPC,    &lt U_SYM TAB,     &lt U_MOUSE RET,   &lt U_NAV SPC,     &lt U_MEDIA ESC,   &kp DOWN,          &kp UP
 
 // Tap Layer
@@ -83,8 +83,8 @@ MIRYOKU_X(ADJUST, "Adjust") \
 #define MIRYOKU_LAYER_TAP \
 &kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp N4,            &kp N5,            &kp N6,            &kp N7,            &kp N8,            &kp N9,            &kp N0,             &kp MINUS, \
 &kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,              &kp DEL, \
-&kp ESC,           &hm LGUI A,        &hm LALT S,        &hm LCTRL D,       &hm LSHFT F,       &kp G,             &kp H,             &hm LSHFT J,       &hm LCTRL K,       &hm LALT L,        &hm LGUI SEMI,       &kp SQT, \
-&kp LSHFT,         &lt U_BUTTON Z,    &hm RALT X,        &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &hm RALT DOT,      &lt U_BUTTON SLASH, &kp RSHFT, \
+&kp ESC,           &rpi LGUI A,       &rpi LALT S,       &rpi LCTRL D,      &rpi LSHFT F,      &kp G,             &kp H,             &rpi LSHFT J,      &rpi LCTRL K,      &rpi LALT L,       &rpi LGUI SEMI,       &kp SQT, \
+&kp LSHFT,         &lt U_BUTTON Z,    &rpi RALT X,       &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &rpi RALT DOT,     &lt U_BUTTON SLASH, &kp RSHFT, \
                    U_NP,              U_NP,              &lt U_FUN DEL,     &lt U_NUM BSPC,    &lt U_SYM TAB,     &lt U_MOUSE RET,   &lt U_NAV SPC,     &lt U_MEDIA ESC,   U_NP,              U_NP
 
 // Button Layer
@@ -194,7 +194,7 @@ MIRYOKU_X(ADJUST, "Adjust") \
 
 #define MIRYOKU_LAYER_FUN \
 &kp F11,           &kp F1,            &kp F2,            &kp F3,            &kp F4,            &kp F5,            &kp F6,            &kp F7,            &kp F8,            &kp F9,            &kp F10,            &kp F12, \
-&kp TAB,           &bootloader,     &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              &kp PSCRN,         &kp F7,            &kp F8,            &kp F9,            &kp F12,            &kp DEL, \
+&kp TAB,           &bootloader,       &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              &kp PSCRN,         &kp F7,            &kp F8,            &kp F9,            &kp F12,            &kp DEL, \
 &kp ESC,           &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp SLCK,          &kp F4,            &kp F5,            &kp F6,            &kp F11,            &kp SQT, \
 &kp LSHFT,         U_NA,              &kp RALT,          &to U_MEDIA,       &to U_FUN,         U_NA,              &kp PAUSE_BREAK,   &kp F1,            &kp F2,            &kp F3,            &kp F10,            &kp RSHFT,\
                    U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp TAB,           &kp SPC,           &kp K_APP,         U_NP,              U_NP
